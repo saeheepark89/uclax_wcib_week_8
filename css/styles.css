@@ -44,8 +44,7 @@ body {
     border-color: white;
     background-color: inherit; }
   body img.applelogo {
-    padding-right: 13px;
-    size: 10px; }
+    padding-right: 13px; }
   body button.btn-primary.downloadbtn:hover {
     color: black;
     border-radius: 21px;
@@ -202,5 +201,4 @@ body {
     color: #242526;
     font-size: 11px;
     line-height: 17px;
-    letter-spacing: 1.5px;
-    margin-top: 75px; }
+    margin: 75px 40px; }
