@@ -1,0 +1,206 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  /*header*/
+  /*hero*/
+  /*content title*/
+  /*content text*/
+  /*pricing title*/
+  /*pricing text*/
+  /*subscribe title*/
+  /*subscribe text*/ }
+  body header .row.header {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #0cb3f8; }
+  body a.header {
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 15px; }
+  body a.header:hover {
+    color: white;
+    border-bottom: 3px solid white; }
+  body .row.hero-text {
+    background-color: #0cb3f8;
+    padding-left: 3rem; }
+  body .hero-text h1 {
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: -3px;
+    color: white; }
+  body p {
+    color: white;
+    font-size: 21px;
+    font-weight: 200;
+    padding-left: 15px;
+    margin-bottom: 90px; }
+  body button.btn-primary.downloadbtn {
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 10px 25px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color: inherit; }
+  body img.applelogo {
+    padding-right: 13px;
+    size: 10px; }
+  body button.btn-primary.downloadbtn:hover {
+    color: black;
+    border-radius: 21px;
+    border-color: white;
+    background-color: white; }
+  body button.btn-primary.learntbn {
+    font-weight: 600;
+    font-size: 10px;
+    padding: 10px 25px;
+    border-style: none;
+    background-color: inherit; }
+  body button.btn-primary.learntbn:hover {
+    color: white;
+    text-decoration: underline; }
+  body img.iphone {
+    margin-bottom: -30px;
+    margin-right: -20px; }
+  body .row.bottombar {
+    background-color: white; }
+  body button.new {
+    margin-left: 3rem;
+    font-size: 9px;
+    padding: 2px 20px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px #1B8BF9;
+    border-color: #0081FF;
+    background-color: #0081FF; }
+  body p.bartext {
+    margin-left: 3rem;
+    color: black;
+    font-size: 13px;
+    margin-bottom: 0px; }
+  body .row.content {
+    background-color: #F5F4F4; }
+  body h2.content-title {
+    padding-top: 59px;
+    padding-bottom: 18px;
+    font-size: 44px;
+    font-weight: 700;
+    color: #242526; }
+  body p.content-title {
+    font-size: 15px;
+    color: #747474;
+    padding-bottom: 30px; }
+  body .row.content-text {
+    background-color: #F5F4F4; }
+  body h5.content-text-feature {
+    font-size: 13px;
+    font-weight: 700;
+    color: #242526; }
+  body p.context-text-body {
+    font-size: 13px;
+    color: #747474; }
+  body img.content-img {
+    margin-top: -40px;
+    margin-bottom: 40px; }
+  body .row.pricing {
+    background-color: #222222; }
+  body h2.pricing-title {
+    padding-top: 59px;
+    padding-bottom: 18px;
+    font-size: 44px;
+    font-weight: 700;
+    color: white; }
+  body p.pricing-title {
+    font-size: 16px;
+    color: #BCC6D0;
+    padding-bottom: 50px; }
+  body .row.pricing-text {
+    background-color: #222222;
+    padding-left: 60px;
+    padding-right: 60px; }
+  body .card {
+    background-color: white;
+    border-color: #BCC6D0;
+    color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 110px; }
+    body .card.alt {
+      background-color: #1B8BF9;
+      border: none;
+      color: white; }
+    body .card.alt button.btn-primary.pricebtn {
+      background-color: white; }
+  body p.pricing-title {
+    margin-bottom: 20px; }
+  body h6.list-title {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 35px; }
+  body h3.money {
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 15px; }
+  body h6.month {
+    font-size: 12px; }
+  body ul.list {
+    padding: 30px 10px;
+    font-size: 14px;
+    list-style: inside url("../images/list.png");
+    line-height: 2rem; }
+  body button.btn-primary.pricebtn {
+    font-weight: 700;
+    font-size: 10px;
+    color: #242526;
+    padding: 10px 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: inherit;
+    border-color: #1B8BF9; }
+  body .row.subscribe {
+    background-image: url("../images/cliffs.png");
+    padding: 70px 0px; }
+  body h2.subscribe-title {
+    font-size: 44px;
+    font-weight: 700;
+    color: white; }
+  body p.subscribe-title {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 50px; }
+  body input.text-left {
+    opacity: 0.33;
+    padding: 10px 190px 10px 10px;
+    font-size: 11px; }
+  body button.btn-primary.send {
+    font-size: 10px;
+    font-weight: 700;
+    background-color: white;
+    padding: 10px 50px;
+    margin-left: -5px;
+    color: #242525;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: white; }
+  body footer .row.footer {
+    margin: 40px 50px 70px 50px;
+    background: white; }
+  body a.footer {
+    text-align: center;
+    color: black;
+    font-size: 11px;
+    font-weight: 600;
+    margin-right: 15px; }
+  body .social {
+    margin-right: 15px; }
+  body .footer-text {
+    color: #242526;
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: 1.5px;
+    margin-top: 75px; }

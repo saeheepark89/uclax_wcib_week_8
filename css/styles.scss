@@ -1,2 +1,254 @@
 body {
+  font-family: 'Montserrat', sans-serif;
+
+/*header*/
+header .row.header {
+      padding-top: 50px;
+      padding-bottom: 30px;
+      background: #0cb3f8;
+  }
+  a.header {
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 15px;
+  }
+  a.header:hover {
+    color: white;
+    border-bottom: 3px solid white;
+  }
+/*hero*/
+.row.hero-text {
+  background-color: rgb(12, 179, 248);
+  padding-left: 3rem;
 }
+  .hero-text h1 {
+      font-size: 70px;
+      font-weight: 600;
+      letter-spacing: -3px;
+      color: white;
+    }
+    p {
+      color: white;
+      font-size: 21px;
+      font-weight: 200;
+      padding-left: 15px;
+      margin-bottom: 90px;
+    }
+    button.btn-primary.downloadbtn {
+      margin-left: 15px;
+      font-weight: 600;
+      font-size: 10px;
+      padding: 10px 25px;
+      border-style: solid;
+      border-radius: 20px;
+      border-color: white;
+      background-color: inherit;
+    }
+    img.applelogo {
+      padding-right: 13px;
+      size: 10px;
+    }
+    button.btn-primary.downloadbtn:hover {
+      color: black;
+      border-radius: 21px;
+      border-color: white;
+      background-color: white
+    }
+   button.btn-primary.learntbn {
+      font-weight: 600;
+      font-size: 10px;
+      padding: 10px 25px;
+      border-style: none;
+      background-color: inherit;
+    }
+    button.btn-primary.learntbn:hover {
+      color: white;
+      text-decoration: underline;
+    }
+    img.iphone {
+      margin-bottom: -30px;
+      margin-right: -20px;
+    }
+.row.bottombar {
+  background-color: white;
+}
+  button.new {
+    margin-left: 3rem;
+    font-size: 9px;
+    padding: 2px 20px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px #1B8BF9;
+    border-color: #0081FF;
+    background-color: #0081FF;
+  }
+  p.bartext {
+    margin-left: 3rem;
+    color: black;
+    font-size: 13px;
+    margin-bottom: 0px;
+  }
+
+/*content title*/
+.row.content {
+  background-color: #F5F4F4;
+}
+  h2.content-title {
+    padding-top: 59px;
+    padding-bottom: 18px;
+    font-size: 44px;
+    font-weight: 700;
+    color: #242526;
+  }
+  p.content-title {
+    font-size: 15px;
+    color: #747474;
+    padding-bottom: 30px;
+  }
+/*content text*/
+.row.content-text {
+  background-color: #F5F4F4;
+}
+    h5.content-text-feature {
+      font-size: 13px;
+      font-weight: 700;
+      color: #242526
+    }
+    p.context-text-body {
+      font-size: 13px;
+      color: #747474;
+    }
+    img.content-img {
+      margin-top: -40px;
+      margin-bottom: 40px;
+    }
+/*pricing title*/
+.row.pricing {
+  background-color: #222222;
+}
+    h2.pricing-title {
+      padding-top: 59px;
+      padding-bottom: 18px;
+      font-size: 44px;
+      font-weight: 700;
+      color: white;
+    }
+    p.pricing-title {
+      font-size: 16px;
+      color: #BCC6D0;
+      padding-bottom: 50px;
+    }
+/*pricing text*/
+  .row.pricing-text {
+    background-color: #222222;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+    .card {
+      background-color: white;
+      border-color: #BCC6D0;
+      color: black;
+      border-width: 1px;
+      border-radius: 10px;
+      margin-bottom: 110px;
+      &.alt {
+        background-color: #1B8BF9;
+        border: none;
+        color: white;
+      }
+      &.alt button.btn-primary.pricebtn {
+        background-color: white;
+      }
+    }
+    p.pricing-title{
+      margin-bottom: 20px;
+    }
+    h6.list-title {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      padding-top: 35px;
+    }
+    h3.money {
+      font-size: 48px;
+      font-weight: 600;
+      padding-top: 15px;
+    }
+    h6.month {
+      font-size: 12px;
+    }
+    ul.list {
+      padding: 30px 10px;
+      font-size: 14px;
+      list-style: inside url('../images/list.png');
+      line-height: 2rem;
+      }
+    button.btn-primary.pricebtn {
+      font-weight: 700;
+      font-size: 10px;
+      color: #242526;
+      padding: 10px 35px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px;
+      border-style: solid;
+      border-radius: 20px;
+      background-color: inherit;
+      border-color: #1B8BF9
+      }
+/*subscribe title*/
+.row.subscribe {
+  background-image: url('../images/cliffs.png');
+  padding: 70px 0px;
+}
+    h2.subscribe-title {
+      font-size: 44px;
+      font-weight: 700;
+      color: white;
+    }
+    p.subscribe-title {
+      font-size: 14px;
+      color: white;
+      margin-bottom: 50px;
+    }
+    input.text-left {
+      opacity: 0.33;
+      padding: 10px 190px 10px 10px;
+      font-size: 11px;
+    }
+    button.btn-primary.send {
+      font-size: 10px;
+      font-weight: 700;
+      background-color: white;
+      padding: 10px 50px;
+      margin-left: -5px;
+      color: #242525;
+      border-radius: 5px;
+      border-width: 1px;
+      border-color: white;
+    }
+/*subscribe text*/
+footer .row.footer {
+  margin: 40px 50px 70px 50px;
+  background: white;
+}
+    a.footer {
+      text-align: center;
+      color: black;
+      font-size: 11px;
+      font-weight: 600;
+      margin-right: 15px;
+    }
+    .social {
+      margin-right: 15px;
+    }
+    .footer-text {
+      color: #242526;
+      font-size: 11px;
+      line-height: 17px;
+      letter-spacing: 1.5px;
+      margin-top: 75px;
+    }
+
+    }
